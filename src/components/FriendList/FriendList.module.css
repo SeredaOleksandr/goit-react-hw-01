@@ -1,0 +1,14 @@
+.friendsList {
+  gap: 8px;
+  width: 460px;
+  padding: 10px;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 16px;
+  color: rgb(70, 70, 70);
+  background-color: #fafafa;
+}
+
+.friendsItem {
+  width: calc((100% - 32px) / 4);
+}
