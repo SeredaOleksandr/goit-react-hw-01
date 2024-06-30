@@ -1,0 +1,61 @@
+.profCard {
+  margin: 0 auto;
+  max-width: 320px;
+  border-radius: 16px;
+  border: 2px solid black;
+  background-color: #fafafa;
+}
+
+.profData {
+  padding: 20px;
+  color: rgb(70, 70, 70);
+}
+
+.avatar {
+  margin: 0 auto;
+  background-color: rgb(119, 119, 119);
+  max-width: 100px;
+  border-radius: 50px;
+}
+
+.profName {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.profTag {
+  color: #808080;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.profLocation {
+  composes: profTag;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.profStats {
+  color: black;
+  display: flex;
+  background-color: #d3d3d3;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.profStatsItem {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1.5px solid #808080;
+}
+
+.profStatsItem:not(:last-child) {
+  border-right: 1.5px solid #808080;
+}
+
+.profValue {
+  font-weight: 500;
+}
